@@ -1,6 +1,6 @@
 # Websockets with NodeJS and Socket.io
 
-This repository contains a small demo application with a small [NodeJS](https://nodejs.org/en/about/) + [Socket.io](https://socket.io/) backend and a vanilla JS + Socket.io frontend client. I tlaso integrates a small Local Storage demo.
+This repository contains a small demo application with a small [NodeJS](https://nodejs.org/en/about/) + [Socket.io](https://socket.io/) backend and a vanilla JS + Socket.io frontend client. It also integrates a small Local Storage demo.
 
 ## Getting started
 
@@ -35,3 +35,8 @@ Now you can open the `index.html` which is located in the `client` folder.
 
 #### 4. Open a new the file with another browser
 You should open the `index.html` with another browser or in an incognito tab to get a better demonstration. If you just duplicate the browser window the messages will have the same sender because the sender is stored in the browser's Local Storage.
+
+#### 5. Enjoy writing yourself messages :)
+
+![Animation](https://user-images.githubusercontent.com/72730682/118371808-8bd71e00-b5ae-11eb-8a81-46b34c4b4a0f.gif)
+
