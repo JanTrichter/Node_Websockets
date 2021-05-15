@@ -16,7 +16,7 @@ You can clone the repository from the commandline with
 $ git clone https://github.com/JanTrichter/Node_Websockets.git
 
 # move into the server directory
-$ cd server/
+$ cd Node_Websockets/server/
 
 # install packages (npm)
 $ npm i
