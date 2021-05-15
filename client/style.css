@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --main: #292929;
+    --highlight: rgb(114, 250, 216);
+    --warning: rgb(250, 141, 114);
+    --ocean-blue: rgb(17, 91, 230);
+}
+
+body, html {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: var(--main);
+    font-size: 2rem;
+}
+
+header {
+    padding: 1rem 0rem;
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    padding: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 1rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    margin: 0rem 0rem 2rem 0rem;
+}
+
+.card p {
+    text-align: left;
+    padding: .6rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+
+.normal {
+    border: 2px solid rgba(99, 99, 99, 0.4);
+}
+
+.highlight {
+    border: 2px solid var(--highlight);
+}
+
+.warning {
+    border: 2px solid var(--warning);
+}
+
+.messages > *{
+    margin: 1rem 0rem;
+}
+
+.messages {
+    overflow-y: scroll;
+    height: 30rem;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+    height: 13px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(17, 91, 230, .5);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: rgba(17, 91, 230, 1);
+}
+
+::-webkit-scrollbar-track{
+    background: transparent;
+    border-radius: 10px;
+}
+
+.sender {
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+}
+
+.btn-main {
+    padding: 1rem 3rem;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 1rem;
+    margin: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.4) 0px 2px 8px 0px;
+    transition: all 200ms ease;
+    background-color: var(--ocean-blue);
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+
+.btn-main:hover {
+    box-shadow: rgba(99, 99, 99, 1) 0px 2px 8px 0px;
+}
+
+.send-message {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    margin-top: auto;
+}
+
+.send-message input {
+    width: 100%;
+    font-size: 1.3rem;
+    padding: .8rem;
+    border: none;
+    outline: none;
+    border: 1px solid var(--ocean-blue);
+    border-radius: 1rem;
+    z-index: 3;
+    margin-top: 1rem;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 500;
+}
